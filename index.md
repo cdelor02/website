@@ -13,4 +13,3 @@ delorey.charlie@gmail.com
 
 ## Resume
 
-[Viewable here](/files/ResumeCharlieDeLorey.pdf)
