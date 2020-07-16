@@ -4,28 +4,13 @@ Welcome to my website!
 
 [Here's a fun video of a dog](https://www.youtube.com/watch?v=vlA2XaKfh78&list=FLHM4vUhTKs3chwPfY8vw6rQ)
 
-sdfgnsidngiderfjnghobdtg
-\f
-gthxfdtgbxdfnh
+## Contact Information
 
-d
-fnbxd
-fnhxdfcgnb cgvbn
+delorey.charlie@gmail.com
+
+[My GitHub page](https://github.com/cdelor02)
 
 
-xdfbhdfb dxfcbv
+## Resume
 
-## sdfvdfbvdf gdfghtdr
-
-xfdthbftghncxftjh
-
-xdthtfjhcxtrfjh
-xftdgjhnftj
-
-xftdhxfthjftjx
-
-### gfdfhnxdfgtchnbxsrtde
-
-xfthxfdthxrtfh
-
-xdthjdxfthj
+[Viewable here]()
