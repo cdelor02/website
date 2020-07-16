@@ -2,6 +2,6 @@
 #theme: jekyll-theme-minimal
 name: Charlie's Personal Website
 title: Charlie DeLorey
-#github:
-#  is_project_page: false
+github:
+  is_project_page: false
 --
