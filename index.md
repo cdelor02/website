@@ -1,4 +1,7 @@
-# Charlie DeLorey
+---
+layout: page
+excerpt: "About Me..."
+---
 
 Welcome to my website! 
 
