@@ -9,9 +9,8 @@ Welcome to my website!
 
 ## Contact Information
 
-[comment]: <> delorey.charlie@gmail.com
-
 [My GitHub page](https://github.com/cdelor02)
+
 
 
 ## Resume
