@@ -9,7 +9,7 @@ Welcome to my website!
 
 ## Contact Information
 
-delorey.charlie@gmail.com
+[comment]: <> delorey.charlie@gmail.com
 
 [My GitHub page](https://github.com/cdelor02)
 
