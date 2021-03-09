@@ -13,6 +13,6 @@ Welcome to my website!
 
 
 
-## Resume
+## Fun Links
 
-[Viewable here](/files/ResumeCharlieDeLorey.pdf)
+[Preparation of liquor for use in sensory tests](http://www.gatsby.ucl.ac.uk/tea/tea_archive/attached_files/BS6008.pdf)
