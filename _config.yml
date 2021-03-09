@@ -1,7 +1,7 @@
 --
 #theme: jekyll-theme-minimal
 name: Charlie's Personal Website
-title: nil
+title: null
 github:
   is_project_page: false
 --
