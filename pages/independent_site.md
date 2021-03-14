@@ -4,6 +4,8 @@ title: Making an independent website
 description: How to make an independent website with GitHub Pages.
 ---
 
+## THIS WEBSITE IS UNDER CONSTRUCTION, BASED OFF OF A WEBSITE TEMPLATE BY KARL BROMAN.
+
 This is what to do if you just want a website. (This page is a bit
 long, but it's really not that much work.)
 
