@@ -5,9 +5,7 @@ excerpt: "About Me..."
 
 Welcome to my website! 
 
-[Resume]({{ site.baseurl }}/resume)
-
-[Projects]({{ site.baseurl }}/projects)
+<div align="center"> [Resume]({{ site.baseurl }}/resume)  [Projects]({{ site.baseurl }}/projects) </div>
 
 ## About Me
 Masters student in London studing medical robotics. A fervent tinkerer, I am interested in medical devices, robotics, and prosthetics. I completed my B.S. in [Computer Science](https://engineering.tufts.edu/cs/) at [Tufts University](https://www.tufts.edu/) in Medford, Massachusetts.
