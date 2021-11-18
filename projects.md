@@ -11,6 +11,17 @@ Here are a number of projects I've done
 ## MRes Thesis project: Soft robot actuator with integrated shape sensing via electrical impedance tomography (EIT)
 [Repo](https://github.com/cdelor02/mres-thesis)
 
+<details>
+  <summary>Click to expand here!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+
 
 ## Ising Model: Coursework for Computational Physics elective (Tufts University, Spring 2020)
 [Repo](https://github.com/cdelor02/ising_model)
