@@ -42,7 +42,7 @@ Here are a number of projects I've done
     Completed in a team of three, we developed and implemented a discrete computational model of ferromagnetism initially formulated by Ernst Ising and Wilhelm Lenz. Written in Python (Jupyter Notebook), the work provided shows a simple 2D lattice simulation. Additionally, I built a simple example of a Hopfield network, a computational model representing how neurons learn and store information; a model of biological memory. This network functions in a similar way to the Ising model whereby each individual element in the models have neighbor interaction.
   </p>
   
-  <img src="files/ising_model_visualization.png" alt="simple Ising model visualization">
+  <img src="files/ising_model_screenshot.png" alt="simple Ising model visualization">
   
   
 </p></details>
