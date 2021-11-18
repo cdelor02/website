@@ -9,8 +9,7 @@ Here are a number of projects I've done
 
 
 ## MRes Thesis project: Soft robot actuator with integrated shape sensing via electrical impedance tomography (EIT)
-<details>
-  <summary>Click to expand</summary> <p>
+<details><summary>Click to expand</summary><p>
   [Repo](https://github.com/cdelor02/mres-thesis)
   [collapsable thing](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
 
@@ -27,10 +26,11 @@ Here are a number of projects I've done
 
 
 ## Ising Model: Coursework for Computational Physics elective (Tufts University, Spring 2020)
-[Repo](https://github.com/cdelor02/ising_model)
+<details><summary>Click to expand</summary><p>
+  [Repo](https://github.com/cdelor02/ising_model)
+ 
+  Completed in a team of three, we developed and implemented a discrete computational model of ferromagnetism initially formulated by Ernst Ising and Wilhelm Lenz. Written in Python (Jupyter Notebook), the work provided shows a simple 2D lattice simulation. Additionally, I built a simple example of a Hopfield network, a computational model representing how neurons learn and store information; a model of biological memory. This network functions in a similar way to the Ising model whereby each individual element in the models have neighbor interaction.
+  
+</p></details>
 
 
-
-
-### For fun
-[cute dog](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=640:*)
