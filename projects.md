@@ -12,14 +12,18 @@ Here are a number of projects I've done
 <details><summary>Click to expand</summary><p>
   [Repo](https://github.com/cdelor02/mres-thesis)
   [collapsable thing](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
-
-  Supervisors: Drs. James Avery, Mark Runciman, Saina Akhond, George Mylonas
-  The Hamlyn Centre, Imperial College London
+  <p>
+    Supervisors: Drs. James Avery, Mark Runciman, Saina Akhond, George Mylonas
+    The Hamlyn Centre, Imperial College London
+  </p>  
   
-  This project entailed an extensive literature review in the field of soft robots, control systems, and uses of EIT in robotics. Next, simulations using EIT simulation software EIDORS () were done to evaluate optimal placement of electrodes necessary for sensing along the body of the hypothetical robotic actuator. In tandem, multiple iterations of actuators were devised and tested, starting from 3D-printed actuators operated by hydraulics to silicone moulded cable-driven actuation. The latter was retained and outfitted with a sensing chamber filled with saline solution, this being the site of sensor data production.
-  
+  <p>
+    This project entailed an extensive literature review in the field of soft robots, control systems, and uses of EIT in robotics. Next, simulations using EIT simulation software EIDORS () were done to evaluate optimal placement of electrodes necessary for sensing along the body of the hypothetical robotic actuator. In tandem, multiple iterations of actuators were devised and tested, starting from 3D-printed actuators operated by hydraulics to silicone moulded cable-driven actuation. The latter was retained and outfitted with a sensing chamber filled with saline solution, this being the site of sensor data production.
+  </p>
   
   ![me](files/me.jpg)
+  
+  <a href="https://github.com/cdelor02/mres-thesis">repo</a>
   
   </p></details>
 
@@ -29,7 +33,13 @@ Here are a number of projects I've done
 <details><summary>Click to expand</summary><p>
   [Repo](https://github.com/cdelor02/ising_model)
  
-  Completed in a team of three, we developed and implemented a discrete computational model of ferromagnetism initially formulated by Ernst Ising and Wilhelm Lenz. Written in Python (Jupyter Notebook), the work provided shows a simple 2D lattice simulation. Additionally, I built a simple example of a Hopfield network, a computational model representing how neurons learn and store information; a model of biological memory. This network functions in a similar way to the Ising model whereby each individual element in the models have neighbor interaction.
+  <p> 
+    Completed in a team of three, we developed and implemented a discrete computational model of ferromagnetism initially formulated by Ernst Ising and Wilhelm Lenz. Written in Python (Jupyter Notebook), the work provided shows a simple 2D lattice simulation. Additionally, I built a simple example of a Hopfield network, a computational model representing how neurons learn and store information; a model of biological memory. This network functions in a similar way to the Ising model whereby each individual element in the models have neighbor interaction.
+  </p>
+  
+    <a href="https://github.com/cdelor02/ising_model">repo2</a>
+
+  
   
 </p></details>
 
