@@ -11,6 +11,7 @@ Here are a number of projects I've done
 ## MRes Thesis project: Soft robot actuator with integrated shape sensing via electrical impedance tomography (EIT)
 <details><summary>Click to expand</summary><p>
   <a href="https://github.com/cdelor02/mres-thesis">Repo</a>
+  
   <a href="https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab">how to do collapsible sections in md</a>
   
   <p>
