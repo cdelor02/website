@@ -5,3 +5,30 @@ I like programming and engineering and learning languages and nerdy things like 
 
 <img src="files/me.jpg" alt="me">
 
+
+
+[Fun video of a dog](https://www.youtube.com/watch?v=vlA2XaKfh78&list=FLHM4vUhTKs3chwPfY8vw6rQ)
+
+[Paper on the proper making of a cup of tea](http://www.gatsby.ucl.ac.uk/tea/tea_archive/attached_files/BS6008.pdf)[^1]
+
+[Hofstadter's_Law](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_[1]: I am a TIFfer (Tea In First)_
