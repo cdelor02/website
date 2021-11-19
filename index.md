@@ -14,6 +14,8 @@ Masters student in London studing medical robotics. A fervent tinkerer, I am int
 
 ## Contact Information
 
-[My GitHub page](https://github.com/cdelor02)
+[My GitHub](https://github.com/cdelor02)
+
+[LinkedIn](https://www.linkedin.com/in/charlie-delorey/)
 
 
