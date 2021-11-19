@@ -3,9 +3,10 @@
 I like programming and engineering and learning languages and nerdy things like Dungeons & Dragons.
 
 What I am doing now:
-- Playing Dungeons & Dragons
 - Trying to learn basic Mandarin
 - Trying to learn physics mechanics related to robotics
+- Playing Dungeons & Dragons
+
 
 <img src="files/me.jpg" alt="me" width=400>
 
