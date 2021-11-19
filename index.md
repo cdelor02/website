@@ -17,10 +17,3 @@ Masters student in London studing medical robotics. A fervent tinkerer, I am int
 [My GitHub page](https://github.com/cdelor02)
 
 
-## Fun Links
-
-[Fun video of a dog](https://www.youtube.com/watch?v=vlA2XaKfh78&list=FLHM4vUhTKs3chwPfY8vw6rQ)
-
-[Paper on the proper making of a cup of tea](http://www.gatsby.ucl.ac.uk/tea/tea_archive/attached_files/BS6008.pdf)
-
-[Hofstadter's_Law](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
