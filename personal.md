@@ -26,9 +26,12 @@ _A photograph of myself taken with my Olympus OMG 35mm SLR film camera on black-
 
 [Hofstadter's Law](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
 
-[قلب(transliterated, "qalb"), a programming language with Arabic-based syntax](https://nas.sr/%D9%82%D9%84%D8%A8/)
+[قلب (transliterated "alb"), a programming language with Arabic-based syntax](https://nas.sr/%D9%82%D9%84%D8%A8/)
 
 
+### Games
+
+[Sporcle, online quizzes](https://www.sporcle.com/)
 
 
 
