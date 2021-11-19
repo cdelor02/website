@@ -2,10 +2,14 @@
 
 I like programming and engineering and learning languages and nerdy things like Dungeons & Dragons.
 
+What I am doing now:
+- Playing Dungeons & Dragons
+- Trying to learn basic Mandarin
+- Trying to learn physics mechanics related to robotics
 
 <img src="files/me.jpg" alt="me" width=400>
 
-_A photograph of myself taken with my Olympus OMG 35mm SLR film camera on black-and-white film ISO 400._
+_A photograph of myself taken with my Olympus OMG 35mm SLR film camera on black-and-white ISO 400 film._
 
 
 
