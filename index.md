@@ -14,7 +14,7 @@ Recent graduate from the [Master's in Research (MRes) in Medical Robotics](http:
 
 ## Contact Information
 
-[My GitHub](https://github.com/cdelor02)
+[GitHub](https://github.com/cdelor02)
 
 [LinkedIn](https://www.linkedin.com/in/charlie-delorey/)
 
