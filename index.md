@@ -4,8 +4,14 @@ excerpt: "About Me..."
 ---
 
 <center>
-| [Resume]({{ site.baseurl }}/resume) 	| [Projects]({{ site.baseurl }}/projects) 	| [Publications]({{ site.baseurl }}/publications) 	| [Personal]({{ site.baseurl }}/personal) 	|
-|-------------------------------------	|:-----------------------------------------:	|:-------------------------------------------------:	|-----------------------------------------:	|
+<table style="width:100%">
+  <tr>
+    <th> [Resume]({{ site.baseurl }}/resume) </th>
+    <th> [Projects]({{ site.baseurl }}/projects) </th>
+    <th> [Publications]({{ site.baseurl }}/publications) </th>
+    <th> [Personal]({{ site.baseurl }}/personal) </th>    
+  </tr>
+</table>
 </center>
   
 Welcome to my website! It is still a work in progress so please forgive me any weird formatting or missing items at this time.
