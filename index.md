@@ -3,6 +3,10 @@ layout: page
 excerpt: "About Me..."
 ---
 
+
+# Charlie DeLorey
+
+
 <center>
 <table style="width:200%">
   <tr>
@@ -17,6 +21,7 @@ excerpt: "About Me..."
 Welcome to my website! It is still a work in progress so please forgive me any weird formatting or missing items at this time.
 
 <img src="files/sunset.jpg" alt="me" width=700>
+
 
 
 ## About Me
