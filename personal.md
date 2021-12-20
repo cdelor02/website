@@ -1,11 +1,6 @@
 # Personal Information
 
-I like programming and engineering and learning languages and nerdy things like Dungeons & Dragons.
-
-What I am doing now:
-- Trying to learn basic Mandarin
-- Trying to learn physics mechanics related to robotics
-- Playing Dungeons & Dragons
+In my free time I enjoy learning languages, board games, making, and a bit of photography.
 
 
 <img src="files/me.jpg" alt="me" width=400>
@@ -32,8 +27,6 @@ _A photograph of myself taken with my Olympus OMG 35mm SLR film camera on black-
 ### Games
 
 [Sporcle, online quizzes](https://www.sporcle.com/)
-
-
 
 
 
