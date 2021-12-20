@@ -3,7 +3,7 @@ layout: page
 excerpt: "About Me..."
 ---
 
-[Resume]({{ site.baseurl }}/resume)              [Projects]({{ site.baseurl }}/projects)           [Publications]({{ site.baseurl }}/publications)           [Personal]({{ site.baseurl }}/personal)
+
 
 <table style="width:100%">
   <tr>
