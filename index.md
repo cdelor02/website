@@ -5,8 +5,6 @@ excerpt: "About Me..."
 
 
 | [Resume]({{ site.baseurl }}/resume) 	| [Projects]({{ site.baseurl }}/projects) 	| [Publications]({{ site.baseurl }}/publications) 	| [Personal]({{ site.baseurl }}/personal) 	|
-|-------------------------------------	|-----------------------------------------	|-------------------------------------------------	|-----------------------------------------	|
-
 
 Welcome to my website! It is still a work in progress so please forgive me any weird formatting or missing items at this time.
 
