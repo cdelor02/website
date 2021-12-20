@@ -7,7 +7,6 @@ excerpt: "About Me..."
 # Charlie DeLorey
 
 
-<center>
 <table style="width:100%">
   <tr>
     <th> [Resume]({{ site.baseurl }}/resume) </th>
@@ -16,8 +15,8 @@ excerpt: "About Me..."
     <th> [Personal]({{ site.baseurl }}/personal) </th>    
   </tr>
 </table>
-</center>
-  
+
+
 Welcome to my website! It is still a work in progress so please forgive me any weird formatting or missing items at this time.
 
 <img src="files/sunset.jpg" alt="me" width=700>
