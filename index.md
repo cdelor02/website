@@ -8,12 +8,12 @@ excerpt: "About Me..."
 
 
 <center>
-<table style="width:200%">
+<table style="width:100%">
   <tr>
-    <th> <a href="https://cdelor02.github.io/website/resume.md"> Resume </a> </th>
-    <th> <a href="https://cdelor02.github.io/website/projects.md"> Projects </a> </th>
-    <th> <a href="https://cdelor02.github.io/website/publications.md"> Publications </a> </th>
-    <th> <a href="https://cdelor02.github.io/website/personal.md"> Personal </a> </th>    
+    <th> [Resume]({{ site.baseurl }}/resume) </th>
+    <th> [Projects]({{ site.baseurl }}/projects) </th>
+    <th> [Publications]({{ site.baseurl }}/publications) </th>
+    <th> [Personal]({{ site.baseurl }}/personal) </th>    
   </tr>
 </table>
 </center>
