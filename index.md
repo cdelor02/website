@@ -10,10 +10,10 @@ excerpt: "About Me..."
 <center>
 <table style="width:200%">
   <tr>
-    <th> <a href="resume.md"> Resume </a> </th>
-    <th> <a href="projects.md"> Projects </a> </th>
-    <th> <a href="publications.md"> Publications </a> </th>
-    <th> <a href="personal.md"> Personal </a> </th>    
+    <th> <a href="https://cdelor02.github.io/website/resume.md"> Resume </a> </th>
+    <th> <a href="https://cdelor02.github.io/website/projects.md"> Projects </a> </th>
+    <th> <a href="https://cdelor02.github.io/website/publications.md"> Publications </a> </th>
+    <th> <a href="https://cdelor02.github.io/website/personal.md"> Personal </a> </th>    
   </tr>
 </table>
 </center>
