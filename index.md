@@ -3,10 +3,11 @@ layout: page
 excerpt: "About Me..."
 ---
 
-
+<center>
 | [Resume]({{ site.baseurl }}/resume) 	| [Projects]({{ site.baseurl }}/projects) 	| [Publications]({{ site.baseurl }}/publications) 	| [Personal]({{ site.baseurl }}/personal) 	|
-|:-------------------------------------	|:-----------------------------------------:	|:-------------------------------------------------:	|-----------------------------------------:	|
-
+|-------------------------------------	|:-----------------------------------------:	|:-------------------------------------------------:	|-----------------------------------------:	|
+</center>
+  
 Welcome to my website! It is still a work in progress so please forgive me any weird formatting or missing items at this time.
 
 <img src="files/sunset.jpg" alt="me" width=700>
