@@ -3,12 +3,12 @@ layout: page
 excerpt: "About Me..."
 ---
 
-Welcome to my website! It is still a work in progress so please forgive me any weird formatting or missing items at this time.
-
 [Resume]({{ site.baseurl }}/resume)              [Projects]({{ site.baseurl }}/projects)           [Publications]({{ site.baseurl }}/publications)           [Personal]({{ site.baseurl }}/personal)
 
 
-<img src="files/sunset.jpg" alt="me" width=800>
+Welcome to my website! It is still a work in progress so please forgive me any weird formatting or missing items at this time.
+
+<img src="files/sunset.jpg" alt="me" width=700>
 
 
 ## About Me
