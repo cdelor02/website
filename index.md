@@ -4,7 +4,7 @@ excerpt: "About Me..."
 ---
 
 <center>
-<table style="width:100%">
+<table style="width:200%">
   <tr>
     <th> <a href="resume.md"> Resume </a> </th>
     <th> <a href="projects.md"> Projects </a> </th>
