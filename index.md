@@ -6,10 +6,10 @@ excerpt: "About Me..."
 <center>
 <table style="width:100%">
   <tr>
-    <th> [Resume]({{ site.baseurl }}/resume) </th>
-    <th> [Projects]({{ site.baseurl }}/projects) </th>
-    <th> [Publications]({{ site.baseurl }}/publications) </th>
-    <th> [Personal]({{ site.baseurl }}/personal) </th>    
+    <th> <a href="resume.md"> Resume </a> </th>
+    <th> <a href="projects.md"> Projects </a> </th>
+    <th> <a href="publications.md"> Publications </a> </th>
+    <th> <a href="personal.md"> Personal </a> </th>    
   </tr>
 </table>
 </center>
