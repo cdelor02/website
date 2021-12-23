@@ -1,12 +1,31 @@
+
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 40.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
 <h1> <b> Projects </b> </h1>
 <title> Charlie DeLorey projects website page</title>
 <a href="index.html"> <i>back to homepage</i> </a>
 <br>
+<br>
 
-Here are a number of projects I've done
 
-
-<h2> <b> MRes Thesis project: Soft robot actuator with integrated shape sensing via electrical impedance tomography (EIT) </b> </h2>
+<h2> <b> MRes Thesis: Soft robot actuator with integrated shape sensing via electrical impedance tomography (EIT) </b> </h2>
 <details><summary>Click to expand</summary><p>
   <a href="https://github.com/cdelor02/mres-thesis">Repo</a>
   
@@ -26,6 +45,38 @@ Here are a number of projects I've done
   
   </p></details>
 
+<br>
+
+
+<h2> <b> Independent study: 3D-printed anthropomorphic hand integrated with ROS middleware </b> </h2>
+<details><summary>Click to expand</summary><p>
+  <a href="https://github.com/cdelor02/robothand"><i>Repo</i></a> <a href="https://github.com/cdelor02/robothand/blob/master/robothand_directedstudy-CharlieDeLorey.pdf"><i>[PDF]</i></a>
+  
+  <p>
+    Mentor: Dr. Jivko Sinapov
+  </p>
+  <p>
+    Department of Computer Science, Tufts University
+  </p>
+ 
+  <p> 
+    Independent work to design, fabricate, and program a 3D-printed cable-driven 5-fingered robotic hand. 
+    The hand is then controlled using an Arduino Uno operating as a ROS Serial node, capable of sending/receiving joint commands over a serial connection. 
+    This ROS node can be integrated into any ROS-based project where a fingered manipulator is desired. Given more time, this robot hand design and code would have been refined and tested using a UR5 robot arm for simple pick-and-place experiments.
+  </p>
+  
+<div class="row">
+  <div class="column">
+    <img src="files/extendedfingersdetail.JPG" alt="robot fingers detail view">
+  </div>
+  <div class="column">
+    <img src="files/extendedwithelectronics.JPG" alt="robot fingers top view with servo electronics">
+  </div>
+</div>  
+<br>
+</p></details>
+
+<br>
 
 
 <h2> <b> Ising Model: Coursework for Computational Physics elective </b> </h2>
