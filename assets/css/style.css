@@ -1,8 +1,5 @@
----
----
+html, body {
+  background-color: beige;
 
-@import "{{ site.theme }}";
-
-header {
-  display: none;
+  font-family: 'Helvetica';
 }
