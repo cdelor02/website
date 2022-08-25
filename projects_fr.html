@@ -1,0 +1,208 @@
+
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    img {
+      max-width: 100%,
+      height: auto
+     }
+
+#footer {
+  position: fixed;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}    
+    
+</style>
+
+<h1> <b> Projets </b> </h1>
+<title> Charlie DeLorey page de projets de site-web</title>
+<a href="index_fr.html"> <i>à l'acceuil</i> </a>
+<br>
+<br>
+
+<br>
+<br>
+<div style="text-align: center"> <h1> <i> N.B. : cette page est mise à jour périodiquement. Revenez plus tard pour en savoir plus. </i> </h1> </div>
+<br>
+<br>
+
+
+<h2> <b> 2021: </b> </h2>
+
+<h3> <b> Thèse MRes : Actionneur de robot souple avec détection de forme intégrée via la tomographie d'impédance électrique (TIE) </b> </h3>
+<details><summary>Cliquez pour en savoir plus</summary><p>
+  <a href="https://github.com/cdelor02/mres-thesis">Repo</a>
+  
+  <p>
+    Directeurs de thèse : Drs. James Avery, Mark Runciman, Saina Akhond, George Mylonas
+  </p>
+  <p>
+    Le Hamlyn Centre, Imperial College London
+  </p>  
+  
+  <p>
+    Ce projet a nécessité une analyse documentaire approfondie dans le domaine des robots mous, des systèmes de commande et des utilisations de TIE en robotique. Ensuite, des simulations ont été effectuées à l'aide du logiciel de simulation TIE, EIDORS, afin d'évaluer le placement optimal des électrodes nécessaires à la détection le long du corps de l'hypothétique actionneur robotique. En tandem, de multiples itérations d'actionneurs ont été conçues et testées, allant d'actionneurs imprimés en 3D et actionnés par des systèmes hydrauliques à des actionneurs à câble moulés en silicone. Ce dernier a été retenu et équipé d'une chambre de détection remplie de solution saline, qui est le site de production des données du capteur.
+  </p>
+  
+  <img src="files/actuator_with_weight.png" alt="actionneur robotique soulevant un poids de 100g">
+  
+  
+  </p></details>
+
+<br>
+
+<h2> <b> 2020 : </b> </h2>
+
+<h3> <b> Étude indépendante : main anthropomorphe imprimée en 3D et intégrée à un logiciel intermédiaire, ROS </b> </h3>
+<details><summary>Cliquez pour en savoir plus</summary><p>
+  <a href="https://github.com/cdelor02/robothand"><i>Repo</i></a> <a href="https://github.com/cdelor02/robothand/blob/master/robothand_directedstudy-CharlieDeLorey.pdf"><i>[PDF]</i></a>
+  
+  <p>
+    Professeur : Dr. Jivko Sinapov
+  </p>
+  <p>
+    Départment d'informatique, Tufts University
+  </p>
+ 
+  <p> 
+    Travail indépendant pour concevoir, fabriquer et programmer une main robotique à 5 doigts, imprimée en 3D et commandée par câble. 
+    La main est ensuite contrôlée à l'aide d'un Arduino Uno fonctionnant comme un nœud ROS Serial, capable d'envoyer/recevoir des commandes conjointes via une connexion série. 
+    Ce nœud ROS peut être intégré à n'importe quel projet ROS dans lequel un manipulateur à doigts est souhaité. Avec un peu plus de temps, la conception et le code de cette main de robot auraient été affinés et testés à l'aide d'un bras robotique UR5 pour des expériences simples de saisie et de positionnement.
+  </p>
+  
+<div class="row">
+  <div class="column">
+    <img src="files/extendedfingersdetail.JPG" alt="vue détaillé des doigts robotiques" width="500" height="400">
+  </div>
+  <div class="column">
+    <img src="files/extendedwithelectronics.JPG" alt="vue en dessus des doigts robotiques avec les servoélectroniques" width="500" height="400">
+  </div>
+</div>  
+<br>
+</p></details>
+
+<br>
+
+
+<h3> <b> Modèle d'Ising : projet pour le cours optionnel de physique informatique </b> </h3>
+<details><summary>Cliquez pour en savoir plus</summary><p>
+  <a href="https://github.com/cdelor02/ising_model">Repo</a>
+  
+  <p>
+    Professeur : Dr. Timothy Atherton
+  </p>
+  <p>
+    Département de physique et d'astronomie, Tufts University
+  </p>
+ 
+  <p> 
+    Réalisé dans une équipe de trois personnes, nous avons développé et mis en œuvre un modèle de calcul discret du ferromagnétisme initialement formulé par Ernst Ising et Wilhelm Lenz. Écrit en Python (Jupyter Notebook), le travail fourni montre une simple simulation de réseau 2D. En outre, j'ai construit un exemple simple de réseau Hopfield, un modèle de calcul représentant la façon dont les neurones apprennent et stockent des informations, un modèle de mémoire biologique. Ce réseau fonctionne de manière similaire au modèle d'Ising, où chaque élément individuel des modèles a une interaction avec son voisin.
+  </p>
+  
+  <img src="files/ising_model_screenshot.png" alt="visualisation d'un modèle simple d'Ising">
+</p></details>
+
+<br>
+
+
+<h2> <b> 2019 : </b> </h2>
+
+<h3> <b> Agent d'apprentissage de préhension conforme à l'apprentissage par renforcement </b> </h3>
+<details><summary>Cliquez pour en savoir plus</summary>
+  <p>
+    Professeur : Dr. Jivko Sinapov
+  </p>
+  <p>
+    Départment d'informatique, Tufts University
+  </p>
+ 
+  <p> 
+    Ce projet était l'évaluation finale du cours COMP 150: Reinforcement Learning (RL). Mon groupe de projet et moi-même avons développé un agent d'apprentissage avec un schéma d'apprentissage MAB (Multi-Armed Bandit) pour apprendre la configuration optimale des pinces pour ramasser des objets. Par manque de temps, nous n'avons pu tester notre agent que sur une balle de tennis dans notre dispositif expérimental. Afin de permettre une exploration satisfaisante de l'espace d'action, nous avons fait en sorte que la probabilité de choisir l'exploration soit très élevée. Pour ajouter de l'exploration supplémentaire, nous avons intégré une fonction de mutation qui modifie la valeur maximale actuellement trouvée, afin d'exagérer la différence entre la meilleure action actuellement choisie et d'autres de même valeur mais situées à des endroits différents dans l'espace d'action.
+  </p>
+  
+<div class="row">
+  <div class="column">
+    <img src="files/2d_qvalue.png" alt="visualisation en 2D des valeurs Q dans l'espace d'action" width="500" height="400">
+  </div>
+  <div class="column">
+    <img src="files/3d_qvalue.png" alt="visualisation en 3D des valeurs Q dans l'espace d'action" width="500" height="400">
+  </div>
+  <div class="column">
+    <img src="files/cumulative.png" alt="graphique linéaire de la récompense cumulée sur 100 épisodes" width="500" height="400">
+  </div>
+</div>  
+<br>
+  
+  <img src="files/armballright.jpeg" alt="robot avec le pince modifié" width="500" height="400">
+
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/G0hQPDB10WM" 
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                                       clipboard-write; encrypted-media; 
+                                                       gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  
+<br>  
+</p></details>
+
+<br>
+<br>
+
+
+<h2> <b> 2014 : </b> </h2>
+
+<h3> <b> Hospital Simulator : Jeu vidéo de type roman visuel simulant le diagnostic du médecin et l'expérience de soins aux patients dans un hôpital.</b> </h3>
+<details><summary>Cliquez pour en savoir plus</summary><p>
+  
+  <p>
+    NuVu Studio, Cambridge, MA
+  </p>  
+  
+  <p>
+    Ce projet de deux semaines a été réalisé dans le cadre du projet « Médecine du futur ». Inspiré par les romans visuels et les jeux de type « choisir sa propre aventure », le jeu a pour but de fournir une expérience interactive du rôle de prestataire de soins dans un environnement médical. Le choix de graphiques en pixels a été fait pour simplifier les exigences artistiques et pour évoquer l'esthétique des jeux « rétro » ou d'arcade. Les développements futurs de ce jeu incluent l'élargissement des connaissances médicales et des diagnostics disponibles, ainsi que l'incorporation de scénarios médicaux supplémentaires pour toucher à l'étendue du domaine médical. Des études littéraires ou d'autres études de fond sur les programmes de simulation médicale et hospitalière existants seraient également étudiées, afin de découvrir les domaines de nouveauté dans lesquels ce projet de simulation pourrait être orienté.
+  </p>
+  
+  <img src="files/HospitalSimulatorTitleScreen.png" alt="écran titre du simulateur d'hôpital">
+  
+  <img src="files/HospitalSimDr.BannerPixelArtCharacter.jpg" style="width: 55vw; min-width: 330px;" alt="personnage principal image pixel art, Doctor Banner">
+  
+  <img src="files/WaitingRoom.png" alt="simulateur d'hôpital salle d'attente">
+  
+  <img src="files/ReceptionRoom.png" alt="salle d'accueil avec réception du simulateur d'hôpital">
+  
+  <img src="files/PatientEncounterDiagramRevised.jpg" alt="diagramme de rencontre d'un patient dans un simulateur d'hôpital, montrant la rencontre, les symptômes, l'analyse, le diagnostic et le traitement">
+  
+  <img src="files/HospitalEquipmentMenu.gif" alt="menu des équipements d'un simulateur d'hôpital, montrant divers instruments médicaux">
+  
+  </p></details>
+<br>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="footer"> &copy; Charles DeLorey</div>
+
+
+
