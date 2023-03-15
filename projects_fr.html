@@ -70,7 +70,7 @@
     Projet final de ME570: Robot Motion Planning. Nous avons mis en œuvre des algorithmes RRT et RRT* en 2D et 3D et les avons appliqués en simulation. Les résultats des performances ont ensuite été comparés à des algorithmes optimisés préconstruits à partir de la boîte à outils MATLAB/Simulink UAV.
   </p>
   
-  <div class="row">
+  <div class="row" style="text-align: center">
     <div class="column" style="text-align: center">
       <img src="files/RRT_5_SIM.png" alt="simulation 2D RRT" width="500" height="400">
       <div class="caption" >Simulation de RRT en 2D</div>
@@ -107,8 +107,10 @@
     Ce projet a nécessité une analyse documentaire approfondie dans le domaine des robots mous, des systèmes de commande et des utilisations de TIE en robotique. Ensuite, des simulations ont été effectuées à l'aide du logiciel de simulation TIE, EIDORS, afin d'évaluer le placement optimal des électrodes nécessaires à la détection le long du corps de l'hypothétique actionneur robotique. En tandem, de multiples itérations d'actionneurs ont été conçues et testées, allant d'actionneurs imprimés en 3D et actionnés par des systèmes hydrauliques à des actionneurs à câble moulés en silicone. Ce dernier a été retenu et équipé d'une chambre de détection remplie de solution saline, qui est le site de production des données du capteur.
   </p>
   
-  <img src="files/actuator_with_weight.png" alt="actionneur robotique soulevant un poids de 100g">
-  
+  <div style="text-align: center">
+    <img src="files/actuator_with_weight.png" alt="actionneur robotique soulevant un poids de 100g">
+    <div class="caption" style="text-align: center">Actionneur robotique soulevant un poids de 100g</div>
+  </div>
   
   </p></details>
 
@@ -133,12 +135,14 @@
     Ce nœud ROS peut être intégré à n'importe quel projet ROS dans lequel un manipulateur à doigts est souhaité. Avec un peu plus de temps, la conception et le code de cette main de robot auraient été affinés et testés à l'aide d'un bras robotique UR5 pour des expériences simples de saisie et de positionnement.
   </p>
   
-<div class="row">
-  <div class="column">
+<div class="row" style="text-align: center">
+  <div class="column" style="text-align: center">
     <img src="files/extendedfingersdetail.JPG" alt="vue détaillé des doigts robotiques" width="500" height="400">
+    <div class="caption" style="text-align: center">Vue détaillé des doigts robotiques</div>
   </div>
-  <div class="column">
+  <div class="column" style="text-align: center">
     <img src="files/extendedwithelectronics.JPG" alt="vue en dessus des doigts robotiques avec les servoélectroniques" width="500" height="400">
+    <div class="caption" style="text-align: center">Vue en dessus des doigts robotiques avec les servoélectroniques</div>
   </div>
 </div>  
 <br>
@@ -162,7 +166,10 @@
     Réalisé dans une équipe de trois personnes, nous avons développé et mis en œuvre un modèle de calcul discret du ferromagnétisme initialement formulé par Ernst Ising et Wilhelm Lenz. Écrit en Python (Jupyter Notebook), le travail fourni montre une simple simulation de réseau 2D. En outre, j'ai construit un exemple simple de réseau Hopfield, un modèle de calcul représentant la façon dont les neurones apprennent et stockent des informations, un modèle de mémoire biologique. Ce réseau fonctionne de manière similaire au modèle d'Ising, où chaque élément individuel des modèles a une interaction avec son voisin.
   </p>
   
-  <img src="files/ising_model_screenshot.png" alt="visualisation d'un modèle simple d'Ising">
+  <div style="text-align: center">
+    <img src="files/ising_model_screenshot.png" alt="visualisation d'un modèle simple d'Ising">
+    <div class="caption" style="text-align: center">Visualisation d'un modèle simple d'Ising</div>
+  </div>  
 </p></details>
 
 <br>
@@ -183,27 +190,36 @@
     Ce projet était l'évaluation finale du cours COMP 150: Reinforcement Learning (RL). Mon groupe de projet et moi-même avons développé un agent d'apprentissage avec un schéma d'apprentissage MAB (Multi-Armed Bandit) pour apprendre la configuration optimale des pinces pour ramasser des objets. Par manque de temps, nous n'avons pu tester notre agent que sur une balle de tennis dans notre dispositif expérimental. Afin de permettre une exploration satisfaisante de l'espace d'action, nous avons fait en sorte que la probabilité de choisir l'exploration soit très élevée. Pour ajouter de l'exploration supplémentaire, nous avons intégré une fonction de mutation qui modifie la valeur maximale actuellement trouvée, afin d'exagérer la différence entre la meilleure action actuellement choisie et d'autres de même valeur mais situées à des endroits différents dans l'espace d'action.
   </p>
   
-<div class="row">
-  <div class="column">
+<div class="row" style="text-align: center">
+  <div class="column" style="text-align: center">
     <img src="files/2d_qvalue.png" alt="visualisation en 2D des valeurs Q dans l'espace d'action" width="500" height="400">
+    <div class="caption" style="text-align: center">Visualisation en 2D des valeurs Q dans l'espace d'action</div>
   </div>
-  <div class="column">
+  <div class="column" style="text-align: center">
     <img src="files/3d_qvalue.png" alt="visualisation en 3D des valeurs Q dans l'espace d'action" width="500" height="400">
+    <div class="caption" style="text-align: center">Visualisation en 3D des valeurs Q dans l'espace d'action</div>
   </div>
-  <div class="column">
+  <div class="column" style="text-align: center">
     <img src="files/cumulative.png" alt="graphique linéaire de la récompense cumulée sur 100 épisodes" width="500" height="400">
+    <div class="caption" style="text-align: center">Graphique linéaire de la récompense cumulée sur 100 épisodes</div>
   </div>
 </div>  
 <br>
   
-  <img src="files/armballright.jpeg" alt="robot avec le pince modifié" width="500" height="400">
-
-  <br>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/G0hQPDB10WM" 
-   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+  <div class="row" style="text-align: center">
+    <div class="column" style="text-align: center">
+      <img src="files/armballright.jpeg" alt="robot avec le pince modifié" width="500" height="400">
+    </div>
+    <div class="column" style="text-align: center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/G0hQPDB10WM" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
                                                        clipboard-write; encrypted-media; 
                                                        gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+      <div class="caption" style="text-align: center">Vidéo du robot</div>
+    </div>
+  </div>
+    
+<br>
   
 <br>  
 </p></details>
@@ -225,17 +241,33 @@
     Ce projet de deux semaines a été réalisé dans le cadre du projet « Médecine du futur ». Inspiré par les romans visuels et les jeux de type « choisir sa propre aventure », le jeu a pour but de fournir une expérience interactive du rôle de prestataire de soins dans un environnement médical. Le choix de graphiques en pixels a été fait pour simplifier les exigences artistiques et pour évoquer l'esthétique des jeux « rétro » ou d'arcade. Les développements futurs de ce jeu incluent l'élargissement des connaissances médicales et des diagnostics disponibles, ainsi que l'incorporation de scénarios médicaux supplémentaires pour toucher à l'étendue du domaine médical. Des études littéraires ou d'autres études de fond sur les programmes de simulation médicale et hospitalière existants seraient également étudiées, afin de découvrir les domaines de nouveauté dans lesquels ce projet de simulation pourrait être orienté.
   </p>
   
-  <img src="files/HospitalSimulatorTitleScreen.png" alt="écran titre du simulateur d'hôpital">
+  <div class="row" style="text-align: center">
+    <div class="column" style="text-align: center">
+      <img src="files/HospitalSimulatorTitleScreen.png" alt="hospital simulator title screen">
+      <div class="caption" style="text-align: center">écran titre du simulateur d'hôpital</div>
+    </div>
+    <div class="column" style="text-align: center">
+      <img src="files/WaitingRoom.png" alt="Simulateur d'hôpital salle d'attente">
+      <div class="caption" style="text-align: center">Waiting room</div>
+    </div>
+  </div>
   
-  <img src="files/HospitalSimDr.BannerPixelArtCharacter.jpg" style="width: 55vw; min-width: 330px;" alt="personnage principal image pixel art, Doctor Banner">
+  <div class="row" style="text-align: center">
+    <div class="column" style="text-align: center">
+      <img src="files/ReceptionRoom.png" alt="Salle d'accueil avec réception du simulateur d'hôpital">
+      <div class="caption" style="text-align: center">Waiting room</div>
+    </div>
+    <div class="column" style="text-align: center">
+      <img src="files/PatientEncounterDiagramRevised.jpg" width="960" height="540" alt="Diagramme de rencontre d'un patient">
+      <div class="caption" style="text-align: center">Gameplay flow diagram</div>
+    </div>
+  </div>
   
-  <img src="files/WaitingRoom.png" alt="simulateur d'hôpital salle d'attente">
+  <div style="text-align: center">
+    <img src="files/HospitalEquipmentMenu.gif" alt="hospital simulator equipment menu, showing various medical instruments">
+    <div class="caption" style="text-align: center">Menu des équipements</div>
+  </div>  
   
-  <img src="files/ReceptionRoom.png" alt="salle d'accueil avec réception du simulateur d'hôpital">
-  
-  <img src="files/PatientEncounterDiagramRevised.jpg" alt="diagramme de rencontre d'un patient dans un simulateur d'hôpital, montrant la rencontre, les symptômes, l'analyse, le diagnostic et le traitement">
-  
-  <img src="files/HospitalEquipmentMenu.gif" alt="menu des équipements d'un simulateur d'hôpital, montrant divers instruments médicaux">
   
   </p></details>
 <br>
