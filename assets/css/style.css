@@ -338,11 +338,18 @@ table#index_info_table tr td p {
 
 
 /* Footer */
-
 #footer {
+  position: fixed;
+  text-align: center;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+/* #footer {
 	overflow: hidden;
 	padding: 20px 0px 60px 0px;
-}
+} */
 
 #footer p {
 	font-size: 10px;
