@@ -12,14 +12,42 @@ body {
 	color: #3C3C3C;
 }
 
-
-h1, h2, h3, h4{
+/* So I think I can customize headers more specifically than this, but for now I'll make each of these different*/
+h1{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 25pt;
+	line-height: 2em;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 19pt;
+	line-height: 2em;
+}
+h3{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 16pt;
+	line-height: 2em;
+}
+h3{
 	margin: 0;
 	padding: 0;
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size: 13pt;
 	line-height: 2em;
 }
+/* h1, h2, h3, h4{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 13pt;
+	line-height: 2em;
+} */
 
 
 p, ol, ul {
@@ -168,6 +196,7 @@ ul.style1 .first {
 	border-top: 1px solid #418fde;
 	border-left: 1px solid #418fde;
 	border-right: 1px solid #418fde;
+	border-bottom: 1px solid #418fde;
 	font-size: 1.25em;
 }
 
