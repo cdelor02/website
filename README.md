@@ -5,6 +5,7 @@ Here is the repo for my personal website, which is hosted and run using GitHub P
 
 ### Major Edit History:
 
+-03/28/2024: I removed the resume (and resume_fr) page, as it was just a small link to my CV. My CV will now be on my main pages.
 - 09/22/2022: the website is being built from the [`bilingual`](https://github.com/cdelor02/website/tree/bilingual) branch of this repository. This is to experiment with my knowledge of HTML/CSS as well as exercise my French language skills. I apologize for any grammatical or vocabulary errors I make, and strive to improve those as well as the readability of my website in due course.
 
 
