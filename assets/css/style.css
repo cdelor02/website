@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-	margin: 30px;
+	margin: 0px;
 	padding: 0px;
 	background: #FFFFFF;
 	font-family: 'Oxygen', sans-serif; 
@@ -50,11 +50,12 @@ h3{
 } */
 
 
-p, ol, ul {
+ol, ul {
 	margin-top: 0px;
 }
 
 p {
+	margin: 30px;
 	line-height: normal;
 	font-family: 'Oxygen', sans-serif;
     font-size: 1.2em;
