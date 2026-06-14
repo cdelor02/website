@@ -1,0 +1,412 @@
+/* ============================================
+   MATLAB-97.CSS
+   Inspired by web.archive.org/web/19970618022534/
+   http://www.matlab.com/
+   
+   The 1997 MathWorks homepage had:
+   - Dark navy (#003399) header
+   - Signature spectrum colour bar (full rainbow gradient)
+   - Silver-gray (#c0c0c0) nav bar, pipe-separated links
+   - Left sidebar in light gray
+   - Section titles: navy bar, gold left border
+   - Arial body text, black on white content
+   - Classic blue/purple link colours
+   
+   PAGE SHELL:
+     .container
+       header        (h1 + .lang-link)
+       #spectrum
+       nav > ul > li[.active] > a
+       #body-wrapper
+         #sidebar
+           .sidebar-heading + ul.sidebar-links
+         #content
+           main > .section > h2 + content
+       footer
+       #spectrum-bottom
+   ============================================ */
+
+
+/* ── Variables ──────────────────────────────── */
+
+:root {
+  --navy:        #003399;
+  --navy-dark:   #001f66;
+  --gold:        #ffcc00;    /* MathWorks section-title accent */
+  --silver:      #c0c0c0;    /* Classic Windows nav gray */
+  --silver-light: #e0e0e0;   /* Sidebar background */
+  --silver-mid:  #d0d0d0;    /* Borders between sidebar items */
+  --white:       #ffffff;
+  --text:        #000000;
+  --link:        #0000cc;    /* Original browser-default blue */
+  --link-vis:    #551a8b;    /* Original browser-default purple */
+  --link-hover:  #cc0000;
+  --border:      #808080;
+}
+
+
+/* ── Reset ──────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ── Body ───────────────────────────────────── */
+
+body {
+  margin: 0;
+  padding: 8px 0 0;
+  background: var(--silver);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+
+/* ── Page container ─────────────────────────── */
+
+/* 760px — targeted at 800×600, the standard in 1997 */
+.container {
+  width: 760px;
+  margin: 0 auto;
+  background: var(--white);
+  border-left:  1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-top:   2px solid var(--navy-dark);
+}
+
+
+/* ── Header ─────────────────────────────────── */
+
+header {
+  background: var(--navy);
+  padding: 10px 14px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--white);
+  letter-spacing: 0.3px;
+}
+
+.lang-link {
+  color: #aac8ff;
+  font-size: 11px;
+  text-decoration: none;
+  border: 1px solid #4466aa;
+  padding: 2px 7px;
+  background: rgba(0,0,60,0.3);
+}
+
+.lang-link:hover {
+  color: var(--white);
+  text-decoration: none;
+  background: rgba(0,0,100,0.5);
+}
+
+
+/* ── Spectrum bar ───────────────────────────── */
+/* The signature MathWorks horizontal gradient —
+   represents the full mathematical colour spectrum */
+
+#spectrum {
+  height: 8px;
+  background: linear-gradient(
+    90deg,
+    #0000aa  0%,
+    #0033dd  9%,
+    #0077ee 18%,
+    #0099cc 27%,
+    #00bbaa 36%,
+    #00cc77 45%,
+    #44cc22 54%,
+    #99cc00 63%,
+    #ddbb00 72%,
+    #ee8800 81%,
+    #dd4400 90%,
+    #aa0000 100%
+  );
+}
+
+
+/* ── Navigation bar ─────────────────────────── */
+
+nav {
+  background: var(--silver);
+  border-bottom: 2px solid var(--border);
+  border-top:    1px solid #e8e8e8;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+/* Classic pipe separator between nav items */
+nav ul li + li::before {
+  content: "|";
+  color: var(--border);
+  margin: 0 7px;
+  font-size: 12px;
+  line-height: 1;
+}
+
+nav ul li a {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--link);
+  text-decoration: none;
+}
+
+nav ul li.active a {
+  color: var(--text);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--link-hover);
+}
+
+
+/* ── Body layout ────────────────────────────── */
+
+#body-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+
+/* ── Left sidebar ───────────────────────────── */
+
+#sidebar {
+  width: 148px;
+  flex-shrink: 0;
+  background: var(--silver-light);
+  border-right: 1px solid var(--border);
+}
+
+.sidebar-heading {
+  background: var(--navy);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 8px;
+}
+
+ul.sidebar-links {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+ul.sidebar-links li {
+  border-bottom: 1px solid var(--silver-mid);
+}
+
+ul.sidebar-links li a {
+  display: block;
+  padding: 4px 10px;
+  font-size: 11px;
+  color: var(--link);
+  text-decoration: none;
+}
+
+ul.sidebar-links li a:visited {
+  color: var(--link-vis);
+}
+
+ul.sidebar-links li a:hover {
+  background: #d0d0f0;
+  text-decoration: underline;
+}
+
+ul.sidebar-links li.active a {
+  font-weight: bold;
+  color: var(--text);
+  background: var(--silver-mid);
+}
+
+
+/* ── Main content area ──────────────────────── */
+
+#content {
+  flex: 1;
+  padding: 14px 16px;
+  min-width: 0;
+  background: var(--white);
+}
+
+main {
+  /* no extra padding */
+}
+
+.section {
+  margin-bottom: 18px;
+}
+
+/* Section title: navy bar + gold left border.
+   This is the core MathWorks 1997 section style. */
+.section h2,
+section h2 {
+  background: var(--navy);
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin: 0 0 10px;
+  padding: 3px 8px 3px 10px;
+  border-left: 4px solid var(--gold);
+}
+
+
+/* ── Links ──────────────────────────────────── */
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--link-vis);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+
+/* ── Horizontal rules ───────────────────────── */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--silver-mid);
+  margin: 12px 0;
+}
+
+
+/* ── Contact list ───────────────────────────── */
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--silver-mid);
+  font-size: 13px;
+}
+
+.contact-list li:last-child {
+  border-bottom: none;
+}
+
+.contact-list li::before {
+  content: "▶ ";
+  color: var(--navy);
+  font-size: 9px;
+  vertical-align: middle;
+}
+
+.contact-list li a {
+  color: var(--link);
+}
+
+
+/* ── Footer ─────────────────────────────────── */
+
+footer {
+  background: var(--silver);
+  border-top: 2px solid var(--border);
+  padding: 7px 14px;
+  font-size: 11px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  color: var(--link);
+  font-size: 11px;
+}
+
+.footer-note {
+  color: #666;
+  font-style: italic;
+  font-size: 10px;
+}
+
+
+/* ── Bottom spectrum bar ────────────────────── */
+
+#spectrum-bottom {
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    #aa0000  0%,
+    #dd4400 14%,
+    #ee8800 28%,
+    #ddbb00 42%,
+    #44cc22 56%,
+    #00bbaa 70%,
+    #0077ee 84%,
+    #0000aa 100%
+  );
+}
+
+
+
+
+/* header buttons styling */
+.header-buttons {
+  float: right;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang-link {
+  padding: 4px 8px;
+  background: #e0e0e0;
+  border: 1px solid #999;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.lang-link:hover {
+  background: #d0d0d0;
+}

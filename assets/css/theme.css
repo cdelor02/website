@@ -1,0 +1,46 @@
+/* Default (light mode) */
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --accent: #0033aa;
+  --panel: #f0f0f0;
+}
+
+/* Auto dark mode if user prefers it */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111111;
+    --text: #e0e0e0;
+    --accent: #66aaff;
+    --panel: #1e1e1e;
+  }
+}
+
+/* Manual override */
+:root[data-theme="dark"] {
+  --bg: #111111;
+  --text: #e0e0e0;
+  --accent: #66aaff;
+  --panel: #1e1e1e;
+}
+
+:root[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #000000;
+  --accent: #0033aa;
+  --panel: #f0f0f0;
+}
+
+/* Apply variables */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+}
+
+header, nav, #sidebar, footer, .section {
+  background: var(--panel);
+}
